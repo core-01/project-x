@@ -1,1 +1,22 @@
-target/
+# Maven / Gradle
+/target/
+*.log
+*.class
+*.jar
+*.war
+
+# IntelliJ / Eclipse / VSCode
+/.idea/
+/*.iml
+/.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment / local files
+*.env
+*.properties
